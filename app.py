@@ -9,6 +9,7 @@ scaler = load('scaler.joblib')
 selected_features = load('selected_features.joblib')
 
 st.title('Heart Disease Diagnosis')
+st.write('21d/47xcs/00245 James Victor Essien 20/47cs/01312 Oyewole Emmanuel Oluwatimilehin')
 
 # Input fields for user data
 age = st.number_input('Age', min_value=0, max_value=120, value=40)
